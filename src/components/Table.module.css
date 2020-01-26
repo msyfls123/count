@@ -29,6 +29,8 @@ ol, ul {
   padding: 5px 0;
   line-height: 1;
   font-size: 12px;
+  min-height: 28px;
+  box-sizing: border-box;
 }
 
 .key, .recordText {

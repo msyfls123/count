@@ -12,6 +12,8 @@ zake  16:29:15
 田伯光。漠北双雄。
 zake  16:29:45
 连环强奸犯和变态吃人魔。
+oloZzz~~  16:32:20
+救啊
 `.trim()
 
 export const MOCK_LIST = `
@@ -19,4 +21,5 @@ export const MOCK_LIST = `
 zake
 烟波钓叟
 Kimi
+oloZzz~~
 `.trim()
