@@ -1,0 +1,44 @@
+.text {
+  margin: 20px;
+}
+.table {
+ display: flex;
+}
+
+ol, ul {
+ list-style: none;
+ padding-inline-start: 0;
+}
+
+.title {
+  margin: 15px 5px 15px 20px;
+  flex: none;
+}
+
+.bodyContainer {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.body {
+  margin: 15px 5px;
+  white-space: nowrap;
+}
+
+.line {
+  padding: 5px 0;
+  line-height: 1;
+  font-size: 12px;
+}
+
+.key, .recordText {
+  background: #ddd;
+  padding: 3px;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.highlight {
+  background-color: #09a9da;
+  color: #fff;
+}

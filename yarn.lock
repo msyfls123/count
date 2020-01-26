@@ -1264,9 +1264,19 @@
     "@types/istanbul-lib-coverage" "*"
     "@types/istanbul-lib-report" "*"
 
+"@types/jest@^24.9.1":
+  version "24.9.1"
+  resolved "https://registry.npm.taobao.org/@types/jest/download/@types/jest-24.9.1.tgz#02baf9573c78f1b9974a5f36778b366aa77bd534"
+  dependencies:
+    jest-diff "^24.3.0"
+
 "@types/json-schema@^7.0.3":
   version "7.0.3"
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.3.tgz#bdfd69d61e464dcc81b25159c270d75a73c1a636"
+
+"@types/lodash@^4.14.149":
+  version "4.14.149"
+  resolved "https://registry.npm.taobao.org/@types/lodash/download/@types/lodash-4.14.149.tgz#1342d63d948c6062838fbf961012f74d4e638440"
 
 "@types/minimatch@*":
   version "3.0.3"
@@ -1275,6 +1285,10 @@
 "@types/node@*":
   version "12.12.14"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.14.tgz#1c1d6e3c75dba466e0326948d56e8bd72a1903d2"
+
+"@types/node@^13.5.0":
+  version "13.5.0"
+  resolved "https://registry.npm.taobao.org/@types/node/download/@types/node-13.5.0.tgz#4e498dbf355795a611a87ae5ef811a8660d42662"
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -1288,13 +1302,13 @@
   version "1.5.2"
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.2.tgz#690a1475b84f2a884fd07cd797c00f5f31356ea8"
 
-"@types/react-dom@*":
+"@types/react-dom@*", "@types/react-dom@^16.9.5":
   version "16.9.5"
   resolved "https://registry.npm.taobao.org/@types/react-dom/download/@types/react-dom-16.9.5.tgz#5de610b04a35d07ffd8f44edad93a71032d9aaa7"
   dependencies:
     "@types/react" "*"
 
-"@types/react@*":
+"@types/react@*", "@types/react@^16.9.19":
   version "16.9.19"
   resolved "https://registry.npm.taobao.org/@types/react/download/@types/react-16.9.19.tgz#c842aa83ea490007d29938146ff2e4d9e4360c40"
   dependencies:
@@ -4884,7 +4898,7 @@ jest-config@^24.9.0:
     pretty-format "^24.9.0"
     realpath-native "^1.1.0"
 
-jest-diff@^24.0.0, jest-diff@^24.9.0:
+jest-diff@^24.0.0, jest-diff@^24.3.0, jest-diff@^24.9.0:
   version "24.9.0"
   resolved "https://registry.yarnpkg.com/jest-diff/-/jest-diff-24.9.0.tgz#931b7d0d5778a1baf7452cb816e325e3724055da"
   dependencies:
@@ -8695,6 +8709,10 @@ type@^2.0.0:
 typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
+
+typescript@^3.7.5:
+  version "3.7.5"
+  resolved "https://registry.npm.taobao.org/typescript/download/typescript-3.7.5.tgz#0692e21f65fd4108b9330238aac11dd2e177a1ae"
 
 uglify-js@3.4.x:
   version "3.4.10"
